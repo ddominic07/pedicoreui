@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root type="object">
+  <Items type="array">
+    <item type="object" __type="ArtOfTest.WebAii.Design.Execution.RunResult">
+      <__value type="object">
+        <IsComplete type="boolean">true</IsComplete>
+        <Name type="string">myte</Name>
+        <StartTime type="string">2022-07-15T19:54:13Z</StartTime>
+        <EndTime type="string">2022-07-15T19:54:59.9932828Z</EndTime>
+        <Id type="string">7278e9f9-ad13-41c9-aae1-5a87116c4d1b</Id>
+        <PassedResult type="boolean">true</PassedResult>
+        <IsRerun type="boolean">false</IsRerun>
+        <HasWarnings type="boolean">false</HasWarnings>
+        <PassedCount type="number">1</PassedCount>
+        <FailedCount type="number">0</FailedCount>
+        <NotRunCount type="number">0</NotRunCount>
+        <DispatchGroupId type="string">00000000-0000-0000-0000-000000000000</DispatchGroupId>
+        <DataCollectors type="object"></DataCollectors>
+        <TestResults type="array">
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'7/15/2022 3:54:14 PM' - Executing test: 'WebTest', path: 'WebTest.tstest.'
+'7/15/2022 3:54:14 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2022.1.215.0'.
+'7/15/2022 3:54:14 PM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'7/15/2022 3:54:16 PM' - Using 'Chrome', UseExtension: 'True', version '103.0.0.0' as default browser. 
+'7/15/2022 3:54:17 PM' - 'Pass' : 1. Navigate to : 'https://pedcoreui.azurewebsites.net'
+'7/15/2022 3:54:22 PM' - 'Pass' : 2. Desktop command: Drag &amp; Drop OktaSigninUsernameText to Window Target
+'7/15/2022 3:54:27 PM' - 'Pass' : 3. Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'
+'7/15/2022 3:54:30 PM' - 'Pass' : 4. Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'
+'7/15/2022 3:54:30 PM' - 'Pass' : 5. Click 'OktaSigninSubmitSubmit'
+'7/15/2022 3:54:33 PM' - 'Pass' : 6. Desktop command: Drag &amp; Drop OktaSigninPasswordPassword to Window Target
+'7/15/2022 3:54:33 PM' - 'Pass' : 7. Click 'OktaSigninSubmitSubmit'
+'7/15/2022 3:54:36 PM' - 'Pass' : 8. Desktop command: Drag &amp; Drop OktaSigninPasswordPassword to Window Target
+'7/15/2022 3:54:38 PM' - 'Pass' : 9. Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'
+'7/15/2022 3:54:38 PM' - 'Pass' : 10. Click 'OktaSigninSubmitSubmit'
+'7/15/2022 3:54:53 PM' - 'Pass' : 11. Click 'TypeCodeDiv'
+'7/15/2022 3:54:54 PM' - 'Pass' : 12. Click 'OrganizationDiv'
+'7/15/2022 3:54:56 PM' - 'Pass' : 13. Click 'RolesAndDiv'
+'7/15/2022 3:54:56 PM' - 'Pass' : 14. Click 'FunctionsDiv'
+'7/15/2022 3:54:57 PM' - 'Pass' : 15. Click 'ApplicationsDiv'
+'7/15/2022 3:54:57 PM' - 'Pass' : 16. Click 'OrganizationDiv'
+'7/15/2022 3:54:57 PM' - 'Pass' : 17. Click 'PersonListDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 18. Click 'OrganizationDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 19. Click 'PersonListDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 20. Click 'TypeCodeDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 21. Click 'FunctionsDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 22. Click 'UsersDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 23. Click 'RolesAndDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 24. Click 'SchedulerDiv'
+'7/15/2022 3:54:58 PM' - 'Pass' : 25. Click 'PersonListDiv'
+'7/15/2022 3:54:59 PM' - 'Pass' : 26. Click 'OrganizationDiv'
+------------------------------------------------------------
+'7/15/2022 3:54:59 PM' - Overall Result: Pass
+'7/15/2022 3:54:59 PM' - Duration: [0 min: 42 sec: 584 msec]
+------------------------------------------------------------
+'7/15/2022 3:54:59 PM' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+              <TestName type="string">WebTest</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">WebTest.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://pedcoreui.azurewebsites.net'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Desktop command: Drag &amp; Drop OktaSigninUsernameText to Window Target</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1781452841</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'OktaSigninSubmitSubmit'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Desktop command: Drag &amp; Drop OktaSigninPasswordPassword to Window Target</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1781452845</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">6</TestStepIndex>
+                    <StepDescription type="string">Click 'OktaSigninSubmitSubmit'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">7</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960566</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">7</TestStepIndex>
+                    <StepDescription type="string">Desktop command: Drag &amp; Drop OktaSigninPasswordPassword to Window Target</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">8</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1781452847</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">8</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">9</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498611</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">9</TestStepIndex>
+                    <StepDescription type="string">Click 'OktaSigninSubmitSubmit'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">10</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960569</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">10</TestStepIndex>
+                    <StepDescription type="string">Click 'TypeCodeDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">11</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960570</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">11</TestStepIndex>
+                    <StepDescription type="string">Click 'OrganizationDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">12</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960571</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">12</TestStepIndex>
+                    <StepDescription type="string">Click 'RolesAndDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">13</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960572</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">13</TestStepIndex>
+                    <StepDescription type="string">Click 'FunctionsDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">14</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960573</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">14</TestStepIndex>
+                    <StepDescription type="string">Click 'ApplicationsDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">15</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960574</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">15</TestStepIndex>
+                    <StepDescription type="string">Click 'OrganizationDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">16</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960575</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">16</TestStepIndex>
+                    <StepDescription type="string">Click 'PersonListDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">17</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960576</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">17</TestStepIndex>
+                    <StepDescription type="string">Click 'OrganizationDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">18</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960577</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">18</TestStepIndex>
+                    <StepDescription type="string">Click 'PersonListDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">19</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960578</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">19</TestStepIndex>
+                    <StepDescription type="string">Click 'TypeCodeDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">20</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960579</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">20</TestStepIndex>
+                    <StepDescription type="string">Click 'FunctionsDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">21</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960580</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">21</TestStepIndex>
+                    <StepDescription type="string">Click 'UsersDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">22</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960581</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">22</TestStepIndex>
+                    <StepDescription type="string">Click 'RolesAndDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">23</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960582</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">23</TestStepIndex>
+                    <StepDescription type="string">Click 'SchedulerDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">24</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960583</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">24</TestStepIndex>
+                    <StepDescription type="string">Click 'PersonListDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">25</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960584</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">WebTest</TestName>
+                    <TestPath type="string">WebTest.tstest</TestPath>
+                    <TestId type="string">4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1</TestId>
+                    <TestStepIndex type="number">25</TestStepIndex>
+                    <StepDescription type="string">Click 'OrganizationDiv'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">26</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960585</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">26</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">26</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2022-07-15T19:54:59.0800843Z</EndTime>
+              <StartTime type="string">2022-07-15T19:54:16.495355Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+        </TestResults>
+        <FileName type="string">myte 133023884999956735</FileName>
+        <Machine type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine">
+          <__value type="object">
+            <Id type="string">00000000-0000-0000-0000-000000000000</Id>
+            <NetworkName type="string">DEVDESK104</NetworkName>
+            <OperatingSystem type="string">Windows 10</OperatingSystem>
+            <InstalledBrowsers type="array">
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">1</Type>
+                  <Version type="string">9.11.19041.0</Version>
+                  <IsConfigured type="boolean">false</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">2</Type>
+                  <Version type="string">102.0.1 (x64 en-US)</Version>
+                  <IsConfigured type="boolean">true</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">7</Type>
+                  <Version type="string">103.0.5060.114</Version>
+                  <IsConfigured type="boolean">true</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">10</Type>
+                  <Version type="string">103.0.1264.49</Version>
+                  <IsConfigured type="boolean">true</IsConfigured>
+                </__value>
+              </item>
+            </InstalledBrowsers>
+            <Status type="number">0</Status>
+            <ServiceUri type="null"></ServiceUri>
+            <DBState type="number">0</DBState>
+            <UserName type="string">adavid</UserName>
+          </__value>
+        </Machine>
+        <Messages type="null"></Messages>
+        <RunId type="string">7278e9f9-ad13-41c9-aae1-5a87116c4d1b</RunId>
+        <Comment type="null"></Comment>
+        <TestListId type="string">2a062df9-c92e-4f75-b34a-d76f7424826c</TestListId>
+        <IsManual type="boolean">false</IsManual>
+      </__value>
+    </item>
+  </Items>
+</root>
