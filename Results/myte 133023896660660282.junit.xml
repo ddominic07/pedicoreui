@@ -1,0 +1,5 @@
+﻿<testsuites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <testsuite name="myte" timestamp="2022-07-15T20:13:51Z" hostname="DEVDESK104" tests="1" failures="0" errors="0" time="35.0640434">
+    <testcase name="WebTest" time="31.3101823" />
+  </testsuite>
+</testsuites>

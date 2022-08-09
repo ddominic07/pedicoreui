@@ -1,0 +1,608 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "myte",
+    "StartTime": "2022-07-15T20:10:34Z",
+    "EndTime": "2022-07-15T20:11:17.7977867Z",
+    "Id": "63dfffe0-b440-4f37-a1fb-7a6e722fabb1",
+    "PassedResult": false,
+    "IsRerun": false,
+    "HasWarnings": false,
+    "PassedCount": 0,
+    "FailedCount": 1,
+    "NotRunCount": 0,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'7/15/2022 4:10:35 PM' - Executing test: 'WebTest', path: 'WebTest.tstest.'\r\n'7/15/2022 4:10:35 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2022.1.215.0'.\r\n'7/15/2022 4:10:35 PM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'7/15/2022 4:10:37 PM' - Using 'Chrome', UseExtension: 'True', version '103.0.0.0' as default browser. \r\n'7/15/2022 4:10:38 PM' - 'Pass' : 1. Navigate to : 'https://pedcoreui.azurewebsites.net'\r\n'7/15/2022 4:10:44 PM' - 'Pass' : 2. Desktop command: Drag & Drop OktaSigninUsernameText to Window Target\r\n'7/15/2022 4:10:49 PM' - 'Pass' : 3. Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'\r\n'7/15/2022 4:10:51 PM' - 'Pass' : 4. Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'\r\n'7/15/2022 4:10:51 PM' - 'Pass' : 5. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:10:54 PM' - 'Pass' : 6. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'7/15/2022 4:10:54 PM' - 'Pass' : 7. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:10:57 PM' - 'Pass' : 8. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'7/15/2022 4:11:00 PM' - 'Pass' : 9. Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'\r\n'7/15/2022 4:11:00 PM' - 'Pass' : 10. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:11:16 PM' - 'Fail' : 11. Click 'TypeCodeDiv'\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [tagname 'Exact' div] AND [TextContent 'StartsWith' Type Code Edito]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Click 'TypeCodeDiv' ...\r\nUnable to locate element by image.\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element\r\n------------------------------------------------------------\r\n'7/15/2022 4:11:16 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'7/15/2022 4:11:16 PM' - Overall Result: Fail\r\n'7/15/2022 4:11:16 PM' - Duration: [0 min: 39 sec: 596 msec]\r\n------------------------------------------------------------\r\n'7/15/2022 4:11:17 PM' - Test completed!\r\n",
+          "ScreenRecordingResultPath": null,
+          "ScreenRecordingResultError": null,
+          "ScreenRecordingResultCodec": null,
+          "ScreenRecordingResultSize": 0,
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [tagname 'Exact' div] AND [TextContent 'StartsWith' Type Code Edito]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Click 'TypeCodeDiv' ...\r\nUnable to locate element by image.\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "lWpCykxg/0869Trrfr12GdDFyjA=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "TypeCodeDiv",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "TextContent=^Type Code Edito"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=div"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1080",
+              "BroweserType": 2,
+              "Image": "5CD51E72E55C80A4D3FCEE108A4E1F6E2283F4580ECBDF8C4FEBD2EE26FC0665",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19044.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "myte 133023894778007821_files\\WebTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "myte 133023894778007821_files\\WebTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Navigator - Signin)' @7/15/2022 4:11:16 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "lWpCykxg/0869Trrfr12GdDFyjA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "TypeCodeDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^Type Code Edito"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 2,
+                    "Image": "5CD51E72E55C80A4D3FCEE108A4E1F6E2283F4580ECBDF8C4FEBD2EE26FC0665",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19044.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+          "TestName": "WebTest",
+          "IsRerun": false,
+          "TestPath": "WebTest.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 0,
+                "StepDescription": "Navigate to : 'https://pedcoreui.azurewebsites.net'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1347723234,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 1,
+                "StepDescription": "Desktop command: Drag & Drop OktaSigninUsernameText to Window Target",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1781452841,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 2,
+                "StepDescription": "Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498605,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 3,
+                "StepDescription": "Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498606,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'OktaSigninSubmitSubmit'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 5,
+                "StepDescription": "Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1781452845,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 6,
+                "StepDescription": "Click 'OktaSigninSubmitSubmit'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960566,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 7,
+                "StepDescription": "Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1781452847,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 8,
+                "StepDescription": "Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498611,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 9,
+                "StepDescription": "Click 'OktaSigninSubmitSubmit'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960569,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "WebTest",
+                "TestPath": "WebTest.tstest",
+                "TestId": "4fd61dbd-40b4-4c9f-81a8-fa0a7b2a14b1",
+                "TestStepIndex": 10,
+                "StepDescription": "Click 'TypeCodeDiv'",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element by Find Expression!\nAttempting to find [Html] element using \r\nFind logic \r\n (Html): [tagname 'Exact' div] AND [TextContent 'StartsWith' Type Code Edito]\r\n\r\nUnable to locate element. Search failed!\r\n\r\n\r\nGetting element image for step Click 'TypeCodeDiv' ...\r\nUnable to locate element by image.\r\nLearn more about finding elements here:\r\nhttp://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "lWpCykxg/0869Trrfr12GdDFyjA=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "TypeCodeDiv",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "TextContent=^Type Code Edito"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=div"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]",
+        "ImageSearchClauses": [
+          {
+            "__type": "ArtOfTest.Common.ImageSearchClause",
+            "__value": {
+              "Resolution": "1920, 1080",
+              "BroweserType": 2,
+              "Image": "5CD51E72E55C80A4D3FCEE108A4E1F6E2283F4580ECBDF8C4FEBD2EE26FC0665",
+              "Index": 0,
+              "MatchThreshold": 90,
+              "OsVersion": "10.0.19044.0",
+              "ScreenScale": 1.0,
+              "ScrollOnImageSearch": null
+            }
+          }
+        ],
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "myte 133023894778007821_files\\WebTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "myte 133023894778007821_files\\WebTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (Navigator - Signin)' @7/15/2022 4:11:16 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "lWpCykxg/0869Trrfr12GdDFyjA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "TypeCodeDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^Type Code Edito"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/div[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 2,
+                    "Image": "5CD51E72E55C80A4D3FCEE108A4E1F6E2283F4580ECBDF8C4FEBD2EE26FC0665",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19044.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "myte 133023894778007821_files\\WebTest_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "myte 133023894778007821_files\\WebTest_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (Navigator - Signin)' @7/15/2022 4:11:16 PM"
+                  }
+                },
+                "Order": 11,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960570,
+                "IsManual": false,
+                "WasStepEnabled": false,
+                "Warnings": null
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [
+            "Click 'OrganizationDiv'",
+            "Click 'RolesAndDiv'",
+            "Click 'FunctionsDiv'",
+            "Click 'ApplicationsDiv'",
+            "Click 'OrganizationDiv'",
+            "Click 'PersonListDiv'",
+            "Click 'OrganizationDiv'",
+            "Click 'PersonListDiv'",
+            "Click 'TypeCodeDiv'",
+            "Click 'FunctionsDiv'",
+            "Click 'UsersDiv'",
+            "Click 'RolesAndDiv'",
+            "Click 'SchedulerDiv'",
+            "Click 'PersonListDiv'",
+            "Click 'OrganizationDiv'"
+          ],
+          "TotalPassedSteps": 10,
+          "ExecutingTestStepCount": 11,
+          "TotalNumberOfNotRunSteps": 0,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2022-07-15T20:11:16.9106142Z",
+          "StartTime": "2022-07-15T20:10:37.3136869Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null,
+          "HasWarnings": false
+        }
+      }
+    ],
+    "FileName": "myte 133023894778007821",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "DEVDESK104",
+        "OperatingSystem": "Windows 10",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.19041.0",
+              "IsConfigured": false
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "102.0.1 (x64 en-US)",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": "103.0.5060.114",
+              "IsConfigured": true
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 10,
+              "Version": "103.0.1264.49",
+              "IsConfigured": true
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "adavid"
+      }
+    },
+    "Messages": null,
+    "RunId": "63dfffe0-b440-4f37-a1fb-7a6e722fabb1",
+    "Comment": null,
+    "TestListId": "2a062df9-c92e-4f75-b34a-d76f7424826c",
+    "IsManual": false
+  }
+}
