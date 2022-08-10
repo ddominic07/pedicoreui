@@ -3,9 +3,9 @@
   "__value": {
     "IsComplete": true,
     "Name": "myte",
-    "StartTime": "2022-07-15T20:13:51Z",
-    "EndTime": "2022-07-15T20:14:26.0640434Z",
-    "Id": "6ccd1b36-d426-43c9-84cc-163ab093d754",
+    "StartTime": "2022-08-10T15:19:37Z",
+    "EndTime": "2022-08-10T15:20:26.4105446Z",
+    "Id": "a20c15c9-b6c8-48df-97a8-4d468a0c971c",
     "PassedResult": true,
     "IsRerun": false,
     "HasWarnings": false,
@@ -21,7 +21,7 @@
           "Browser": 7,
           "ExeType": 5,
           "SeparatorLineCharCount": 60,
-          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'7/15/2022 4:13:51 PM' - Executing test: 'WebTest', path: 'WebTest.tstest.'\r\n'7/15/2022 4:13:51 PM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2022.1.215.0'.\r\n'7/15/2022 4:13:51 PM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'7/15/2022 4:13:53 PM' - Using 'Chrome', UseExtension: 'True', version '103.0.0.0' as default browser. \r\n'7/15/2022 4:13:54 PM' - 'Pass' : 1. Navigate to : 'https://pedcoreui.azurewebsites.net'\r\n'7/15/2022 4:14:00 PM' - 'Pass' : 2. Desktop command: Drag & Drop OktaSigninUsernameText to Window Target\r\n'7/15/2022 4:14:05 PM' - 'Pass' : 3. Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'\r\n'7/15/2022 4:14:07 PM' - 'Pass' : 4. Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'\r\n'7/15/2022 4:14:07 PM' - 'Pass' : 5. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:14:10 PM' - 'Pass' : 6. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'7/15/2022 4:14:10 PM' - 'Pass' : 7. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:14:13 PM' - 'Pass' : 8. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'7/15/2022 4:14:16 PM' - 'Pass' : 9. Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'\r\n'7/15/2022 4:14:16 PM' - 'Pass' : 10. Click 'OktaSigninSubmitSubmit'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 11. Click 'TypeCodeDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 12. Click 'OrganizationDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 13. Click 'RolesAndDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 14. Click 'FunctionsDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 15. Click 'ApplicationsDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 16. Click 'OrganizationDiv'\r\n'7/15/2022 4:14:23 PM' - 'Pass' : 17. Click 'PersonListDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 18. Click 'OrganizationDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 19. Click 'PersonListDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 20. Click 'TypeCodeDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 21. Click 'FunctionsDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 22. Click 'UsersDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 23. Click 'RolesAndDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 24. Click 'SchedulerDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 25. Click 'PersonListDiv'\r\n'7/15/2022 4:14:24 PM' - 'Pass' : 26. Click 'OrganizationDiv'\r\n------------------------------------------------------------\r\n'7/15/2022 4:14:24 PM' - Overall Result: Pass\r\n'7/15/2022 4:14:24 PM' - Duration: [0 min: 31 sec: 310 msec]\r\n------------------------------------------------------------\r\n'7/15/2022 4:14:25 PM' - Test completed!\r\n",
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'8/10/2022 11:19:38 AM' - Executing test: 'WebTest', path: 'WebTest.tstest.'\r\n'8/10/2022 11:19:38 AM' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2022.1.215.0'.\r\n'8/10/2022 11:19:38 AM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'8/10/2022 11:19:40 AM' - Using 'Chrome', UseExtension: 'True', version '104.0.0.0' as default browser. \r\n'8/10/2022 11:19:41 AM' - 'Pass' : 1. Navigate to : 'https://pedcoreui.azurewebsites.net'\r\n'8/10/2022 11:19:47 AM' - 'Pass' : 2. Desktop command: Drag & Drop OktaSigninUsernameText to Window Target\r\n'8/10/2022 11:19:52 AM' - 'Pass' : 3. Enter text 'adavid@madisonresources.com' in 'OktaSigninUsernameText'\r\n'8/10/2022 11:19:55 AM' - 'Pass' : 4. Enter text 'Saraheric@143$' in 'OktaSigninPasswordPassword'\r\n'8/10/2022 11:19:55 AM' - 'Pass' : 5. Click 'OktaSigninSubmitSubmit'\r\n'8/10/2022 11:19:58 AM' - 'Pass' : 6. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'8/10/2022 11:19:58 AM' - 'Pass' : 7. Click 'OktaSigninSubmitSubmit'\r\n'8/10/2022 11:20:01 AM' - 'Pass' : 8. Desktop command: Drag & Drop OktaSigninPasswordPassword to Window Target\r\n'8/10/2022 11:20:04 AM' - 'Pass' : 9. Enter text 'Saraheric123$' in 'OktaSigninPasswordPassword'\r\n'8/10/2022 11:20:04 AM' - 'Pass' : 10. Click 'OktaSigninSubmitSubmit'\r\n'8/10/2022 11:20:07 AM' - 'Pass' : 11. Click 'TypeCodeDiv'\r\n'8/10/2022 11:20:09 AM' - 'Pass' : 12. Click 'OrganizationDiv'\r\n'8/10/2022 11:20:10 AM' - 'Pass' : 13. Click 'RolesAndDiv'\r\n'8/10/2022 11:20:11 AM' - 'Pass' : 14. Click 'FunctionsDiv'\r\n'8/10/2022 11:20:12 AM' - 'Pass' : 15. Click 'ApplicationsDiv'\r\n'8/10/2022 11:20:13 AM' - 'Pass' : 16. Click 'OrganizationDiv'\r\n'8/10/2022 11:20:13 AM' - 'Pass' : 17. Click 'PersonListDiv'\r\n'8/10/2022 11:20:15 AM' - 'Pass' : 18. Click 'OrganizationDiv'\r\n'8/10/2022 11:20:15 AM' - 'Pass' : 19. Click 'PersonListDiv'\r\n'8/10/2022 11:20:17 AM' - 'Pass' : 20. Click 'TypeCodeDiv'\r\n'8/10/2022 11:20:19 AM' - 'Pass' : 21. Click 'FunctionsDiv'\r\n'8/10/2022 11:20:22 AM' - 'Pass' : 22. Click 'UsersDiv'\r\n'8/10/2022 11:20:22 AM' - 'Pass' : 23. Click 'RolesAndDiv'\r\n'8/10/2022 11:20:23 AM' - 'Pass' : 24. Click 'SchedulerDiv'\r\n'8/10/2022 11:20:24 AM' - 'Pass' : 25. Click 'PersonListDiv'\r\n'8/10/2022 11:20:25 AM' - 'Pass' : 26. Click 'OrganizationDiv'\r\n------------------------------------------------------------\r\n'8/10/2022 11:20:25 AM' - Overall Result: Pass\r\n'8/10/2022 11:20:25 AM' - Duration: [0 min: 44 sec: 858 msec]\r\n------------------------------------------------------------\r\n'8/10/2022 11:20:25 AM' - Test completed!\r\n",
           "ScreenRecordingResultPath": null,
           "ScreenRecordingResultError": null,
           "ScreenRecordingResultCodec": null,
@@ -563,8 +563,8 @@
           "TotalNumberOfNotRunSteps": 0,
           "IsDataDrivenResult": false,
           "DataIterationResults": [],
-          "EndTime": "2022-07-15T20:14:24.9756271Z",
-          "StartTime": "2022-07-15T20:13:53.6654448Z",
+          "EndTime": "2022-08-10T15:20:25.5265175Z",
+          "StartTime": "2022-08-10T15:19:40.667771Z",
           "ProfilerResultsPath": null,
           "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
           "CommitedBy": null,
@@ -572,7 +572,7 @@
         }
       }
     ],
-    "FileName": "myte 133023896660660282",
+    "FileName": "myte 133046184264135448",
     "Machine": {
       "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
       "__value": {
@@ -592,7 +592,7 @@
             "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
             "__value": {
               "Type": 2,
-              "Version": "102.0.1 (x64 en-US)",
+              "Version": "103.0.1 (x64 en-US)",
               "IsConfigured": true
             }
           },
@@ -600,16 +600,16 @@
             "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
             "__value": {
               "Type": 7,
-              "Version": "103.0.5060.114",
-              "IsConfigured": true
+              "Version": "104.0.5112.81",
+              "IsConfigured": false
             }
           },
           {
             "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
             "__value": {
               "Type": 10,
-              "Version": "103.0.1264.49",
-              "IsConfigured": true
+              "Version": "103.0.1264.71",
+              "IsConfigured": false
             }
           }
         ],
@@ -620,7 +620,7 @@
       }
     },
     "Messages": null,
-    "RunId": "6ccd1b36-d426-43c9-84cc-163ab093d754",
+    "RunId": "a20c15c9-b6c8-48df-97a8-4d468a0c971c",
     "Comment": null,
     "TestListId": "2a062df9-c92e-4f75-b34a-d76f7424826c",
     "IsManual": false
